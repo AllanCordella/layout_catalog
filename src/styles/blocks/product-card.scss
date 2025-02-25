@@ -12,6 +12,18 @@ body {
   border-radius: 5px;
   transition: all 0.3s;
 
+  &__description {
+    width: 166px;
+    height: 36px;
+    margin: 0 16px;
+    margin-top: 8px;
+
+    font-size: 12px;
+    line-height: 18px;
+    color: #000;
+  }
+
+
   &:hover {
     transform: scale(1.2);
     .product-card__description {
@@ -29,16 +41,6 @@ body {
     background-position: center;
   }
 
-  &__description {
-    width: 166px;
-    height: 36px;
-    margin: 0 16px;
-    margin-top: 8px;
-
-    font-size: 12px;
-    line-height: 18px;
-    color: #000;
-  }
 
   &__code {
     color: #616070;
